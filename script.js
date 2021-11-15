@@ -1,5 +1,5 @@
 var date = new Date();
-var hour = d.getHours();
+var hour = date.getHours();
 
 
 
@@ -16,7 +16,7 @@ function noLive() {
 
 
 function buttonDisplay(){
-    if ( 1 == 1 ){
+    if ( hour > 14 && hour < 16){
         document.getElementById("yesButton").style.display = "block";
         document.getElementById("isLive").style.display = "block";
     document.getElementById("isNotLive").style.display = "none";
