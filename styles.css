@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+    margin: 0 0;
+}
+
+
+.header{
+    height: 100px;
+    
+    background-color: #202020;
+    margin: 0 0;
+    padding: 0 0;
+    display: block;
+
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+   margin: 0 0;
+   padding: 0 0;
+   position: relative;
+   top: 20px;
+   left: 25px;
+
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+   margin: 0 0;
+   padding: 0 0;
+   float: right;
+   position: absolute;
+   right: 67px;
+   top:20px;
+}
+.greenbutton{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(15, 204, 62);
+    border: 3px solid white;
+    float: right;
+    position: absolute;
+    top: 36px;
+    right: 25px;
+    
+
+}
+
+
+
+
+
+body{
+    margin:0 0;
+    padding: 0 0;
+    
+
+    height: 100%;
+    
+       
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    opacity: 1;
+    
+}
+
+h4{
+    opacity: 1.0;
+    color: white;
+    font-size: 40px;
+    
+    margin: 0 0;
+    padding: 0 0;
+    
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    
+}
+
+#isLive{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(Tuckercarlson.jpeg);
+    
+    background-color: #cccccc;
+    border-image-repeat: stretch;
+
+}
+#isNotLive{
+
+    width: 100%;
+    height: 100%;
+    display: none;
+
+    background-color: black;
+}
+h3{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+
+}
