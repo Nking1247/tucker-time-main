@@ -12,47 +12,33 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 
-          <!-- MOBILE WEB APP, ADD THIS TO <head>..</head> OF index.html -->
-       <link rel="icon" type="image/png" href="favicon.png" />
-       <link rel="apple-touch-icon" href="favicon.png">
-       <meta name="apple-mobile-web-app-title" content="AppName">
-       <meta name="apple-mobile-web-app-capable" content="yes">
-       <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script src="script.js"></script>
 
+        <!-- MOBILE WEB APP, ADD THIS TO <head>..</head> OF index.html -->
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="apple-touch-icon" href="favicon.png">
+        <meta name="apple-mobile-web-app-title" content="AppName">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-
-   <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
- />
 
 
     </head>
-    <body>
+    <body onload="buttonDisplay()">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
             
-        <script src="" async defer></script>
-    </body>
+
 
     <header>
         <section class="header">
            <h1> IS TUCKR LIVE?!</h1>
-           <section>
-               
-           </section>
-            <h2>YES</h2>
-            
-                <a href="https://www.google.com">
-                    <button onclick="changePage()" class="greenbutton">
+            <span id="yesButton"><h2>YES</h2><button onClick="yesLive()" class="greenbutton"></button></span>
+            <span id="noButton"><h2>NO</h2><button onClick="noLive()" class="redbutton"></button></span>
 
-                    </button>
-                </a>
-                
-           
-            
         </section>
 
     </header>
@@ -82,4 +68,5 @@
 
     </section>
 
+</body>
 </html>
